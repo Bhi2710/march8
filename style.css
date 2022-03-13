@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    /* background-color: black; */
+}
+th{
+    border: 2px solid;
+    border-collapse: collapse;
+    border-style: none;
+}
+img{
+    cursor: pointer;
+}
+#seen{
+    margin-top: 100px;
+    position:fixed;
+    display: flex;
+    justify-content: end;
+    border: 1px solid pink;
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+}
+.cross{
+    position: fixed;
+    border: 2px solid white;
+    background-color: white;
+}
+.d-none{
+    display: none;
+}
